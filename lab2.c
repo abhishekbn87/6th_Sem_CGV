@@ -92,8 +92,8 @@ void display()
 	drawText(100,150,"Bresenham's Line Drawing Algorithm");
 	sprintf(start,"(%d,%d)",x1,Y1);
 	sprintf(end,"(%d,%d)",x2,y2);
-	drawText(195,290,start);
-	drawText(95,190,end);
+	drawText(x1-5,Y1-5,start);
+	drawText(x2+3,y2,end);
 	glFlush();
 }
 
